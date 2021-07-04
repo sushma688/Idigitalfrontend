@@ -23,6 +23,7 @@ function App() {
     <Provider store={store}>
       <Router>
         <HeaderComponent/>
+    <chat/>
         <Route exact path="/" component={Home}/>   
         <Route exact path="/dashboard" component={Dashboard}/>
         <Route exact path="/addProduct" component={adp}/>
